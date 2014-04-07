@@ -1,0 +1,29 @@
+/*=============================================================================
+#     FileName: main.c
+#         Desc: 字符串作为字符数组的示范
+#       Author: Harry Wu
+#        Email: wuxiaohuaer@gmail.com
+#     HomePage: --
+#      Version: 0.0.1
+#   LastChange: 2014-04-07 18:47:48
+#      History:
+=============================================================================*/
+#include <stdio.h>
+#include <string.h>
+#include <cs50.h>
+
+int main(void)
+{
+    string s = GetString();
+	if (s != NULL)
+	{
+		for (int i = 0; i < 1000; i++)
+		//for (int i = 0; i < strlen(s); i++)
+		{
+			char c = s[i];
+			printf("Character #%d is %c\n", i, c);
+		}
+        //用8进制输出, 并且带八进制的前缀0, 注意格式化字符是o
+        printf("The number of the characters are %#o", strlen(s));
+	}
+}
