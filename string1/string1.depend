@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1396869550 source:d:\github_software\cs50-learning-code\string1\main.c
+	<stdio.h>
+	<string.h>
+	<cs50.h>
+

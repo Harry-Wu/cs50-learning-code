@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1396865151 source:d:\github_software\cs50-learning-code\beer4\main.c
+	<stdio.h>
+	<cs50.h>
+	<time.h>
+
